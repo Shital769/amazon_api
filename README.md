@@ -22,8 +22,8 @@
 ### 1. Clone repo
 
 ```
-$ git clone https://github.com/Shital769/amazon
-$ cd amazon
+https://github.com/Shital769/amazon-backend.git
+
 ```
 
 ### 2. Setup MongoDB
