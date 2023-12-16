@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 b2fa86f37e430b77872c7797c86db27edc46adab Shital769 <110831382+Shital769@users.noreply.github.com> 1696065542 +1000	commit (initial): started backend side of amazon
+b2fa86f37e430b77872c7797c86db27edc46adab b2fa86f37e430b77872c7797c86db27edc46adab Shital769 <110831382+Shital769@users.noreply.github.com> 1696065551 +1000	Branch: renamed refs/heads/master to refs/heads/main
+b2fa86f37e430b77872c7797c86db27edc46adab 112c2f972fab9b42e89132d46b216c5364ee2480 Shital769 <110831382+Shital769@users.noreply.github.com> 1696500265 +1100	commit: connected to mongoDB
+112c2f972fab9b42e89132d46b216c5364ee2480 00586e8b51a5756a9397e7132330bd5393c7aee9 Shital769 <110831382+Shital769@users.noreply.github.com> 1696502775 +1100	commit: Created sample data into database
+00586e8b51a5756a9397e7132330bd5393c7aee9 3ed555fefaa42f0a102234de31534cb48a42582a Shital769 <110831382+Shital769@users.noreply.github.com> 1696504909 +1100	commit: implement jwt while signnig in
+3ed555fefaa42f0a102234de31534cb48a42582a 9cb272b86787e0d4d91dfbc3b4bbf1749d7db121 Shital769 <110831382+Shital769@users.noreply.github.com> 1696515918 +1100	commit: fix bug in user router
+9cb272b86787e0d4d91dfbc3b4bbf1749d7db121 ece19ed43bc0d6a1d3b32a6161fa90bb5e32373f Shital769 <110831382+Shital769@users.noreply.github.com> 1696646790 +1100	commit: created register api
+ece19ed43bc0d6a1d3b32a6161fa90bb5e32373f d625a4eee83d00994a29529671f4ada3878986cf Shital769 <110831382+Shital769@users.noreply.github.com> 1696754937 +1100	commit: created place order api
+d625a4eee83d00994a29529671f4ada3878986cf fa4a21cc272b23af5399c91ce799532ef43ef068 Shital769 <110831382+Shital769@users.noreply.github.com> 1697100973 +1100	commit: created api for paypal
+fa4a21cc272b23af5399c91ce799532ef43ef068 62899759babf133834cf5c75a29cfb2405175743 Shital769 <110831382+Shital769@users.noreply.github.com> 1697108704 +1100	commit: created order display route
+62899759babf133834cf5c75a29cfb2405175743 22e6c68d939ae378876e846dd4a217c5e4db6534 Shital769 <110831382+Shital769@users.noreply.github.com> 1697200568 +1100	commit: created user profile Api
+22e6c68d939ae378876e846dd4a217c5e4db6534 f14c77873cf1c6e3f3b7645a11bf81b9aee2c891 Shital769 <110831382+Shital769@users.noreply.github.com> 1697259523 +1100	commit: created user update api

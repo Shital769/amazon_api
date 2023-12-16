@@ -8,11 +8,11 @@ const productRouter = express.Router();
 
 const getRouteLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 10,
+  max: 1000,
 });
 const isAuthLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 10,
+  max: 1000,
 });
 
 productRouter.get("/", getRouteLimiter, async (req, res) => {
@@ -49,11 +49,12 @@ productRouter.post(
 
 productRouter.put(
   "/:id",
-  isAuthLimiter,
   isAuth,
+  isAuthLimiter,
   isAdmin,
   expressAsyncHandler(async (req, res) => {
     const productId = req.params.id;
+    console.log(productId);
     const product = await Product.findById(productId);
     console.log(product);
     if (product) {

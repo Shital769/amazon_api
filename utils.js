@@ -45,7 +45,12 @@ export const isAuth = (req, res, next) => {
     const token = authorization.slice(7, authorization.length); //Bearer XXXXXX
     jwt.verify(token, process.env.JWT_SECRET, (err, decode) => {
       if (err) {
-        res.status(401).send({ message: "Invalid token" });
+        console.log(err);
+        if (err.name === "TokenExpiredError") {
+          res.status(401).send({ message: "Token has expired" });
+        } else {
+          res.status(401).send({ message: "Invalid token" });
+        }
       } else {
         req.user = decode;
         next();
